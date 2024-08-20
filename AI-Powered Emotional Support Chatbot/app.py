@@ -18,7 +18,7 @@ from textblob import TextBlob  # For basic sentiment analysis
 model = ChatOpenAI(model="gpt-4o")
 store = {}
 
-cred = credentials.Certificate('authentication-b4eb1-firebase-adminsdk-89bp8-0eb9ad38dc.json')  # Download this from Firebase Console
+cred = credentials.Certificate('authentication-b4eb1-firebase-********.json')  # Download this from Firebase Console
 default_app = firebase_admin.initialize_app(cred)
 
 def get_session_history(session_id: str) -> BaseChatMessageHistory:
