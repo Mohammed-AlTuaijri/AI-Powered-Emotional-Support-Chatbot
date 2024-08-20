@@ -35,7 +35,7 @@ app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
-openai.api_key = 'sk-proj-cxYibbpRguaRyA8VMVk0T3BlbkFJbBzqozXK1Cchkchwy1dX'  # Ensure this is set in your environment variables
+openai.api_key = 'sk****'  # Ensure this is set in your environment variables
 
 SYSTEM_PROMPT = {
     "role": "system",
